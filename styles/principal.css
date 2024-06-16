@@ -7,6 +7,7 @@
 }
 
 :root {
+    --background: blue;
     --primary-color:rgba(40, 55, 219, 0.526);
     --secondary-color:rgba(4, 12, 105, 0.942);
 }
@@ -20,21 +21,21 @@ body {
 
 .intro {
     display: flex;
-    background-color: blue;
+    background-color: var(--background);
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100px;
+    height: 80px;
 }
 
 .intro img {
-    width: 100px;
+    width: 90px;
     padding: 15px;
     border-radius: 30px;
 }
 
 .intro h1 {
-    font-size: 2.5em;
+    font-size: 2em;
     color: white;
  }
 
@@ -45,7 +46,7 @@ nav {
 .barrita {
     display: flex;
     justify-content: space-around;
-    height: 50px;
+    height: 30px;
 }
 
 a {
@@ -75,6 +76,7 @@ a:hover {
     grid-column: 1/2;
 }
 
+/*SECTION COUNTRY*/
 .country {
     text-align: center;
     margin: 20px;
@@ -84,29 +86,57 @@ a:hover {
 
 .country img {
     width: 400px;
+    margin: 20px;
 }
 
+/*SECTION CERTIFICATE*/
 .courses {
     text-align: center;
     grid-column: 1/3;
     margin: 20px;
     border: 2px solid blue;
-
 }
-/*SECTION COUNTRY*/
-/*SECTION CERTIFICATE*/
+/*GENERAL*/
+h2 {
+    background-color: var(--background);
+    color: white;
+    height: 30px;
+}
+
 /*FOOTER*/
 footer {
-    background-color: var(--primary-color);
+    background-color: var(--background);
     text-align: center;
     width: 100%;
 }
 
 footer p {
     font-size: 18px;
-    color: black;
+    color: white;
 }
 
 #currentyear {
     font-size: 18px;
+}
+
+@media screen and (max-width: 600px)
+{
+    .card {
+        display: flex;
+        flex-direction: column;
+        margin: 1px;
+    }
+
+    .resources,
+    .country,
+    .courses {
+        margin-bottom: -10px;
+    }
+
+    .country img {
+        width: 200px;
+        margin: 20px;
+    }
+    
+
 }
