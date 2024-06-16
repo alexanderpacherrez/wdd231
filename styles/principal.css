@@ -108,6 +108,7 @@ footer {
     background-color: var(--background);
     text-align: center;
     width: 100%;
+    text-wrap: pretty;
 }
 
 footer p {
