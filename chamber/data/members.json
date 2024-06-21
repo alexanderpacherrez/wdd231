@@ -1,0 +1,102 @@
+{
+    "members": [
+        {
+        "name": "Lucy's Store",
+        "address": "Smith",
+        "phoneNumber": 933104571,
+        "url": "27 June 1844",
+        "image": 14,
+        "membershipLevel":
+            {
+              "member": "1",
+              "silver": "2",
+              "gold": "3"
+            },
+        "email": "alexander@correo.com"
+        },
+        {
+        "name": "Monica's Shoes",
+        "address": "Smith",
+        "phoneNumber": 933104572,
+        "url": "27 June 1844",
+        "image": 14,
+        "membershipLevel":
+            {
+              "member": "1",
+              "silver": "2",
+              "gold": "3"
+            },
+        "email": "alexander@correo.com"
+        },
+        {
+        "name": "Martin Technologhy",
+        "address": "Smith",
+        "phoneNumber": 933104573,
+        "url": "27 June 1844",
+        "image": 14,
+        "membershipLevel":
+            {
+              "member": "1",
+              "silver": "2",
+              "gold": "3"
+            },
+        "email": "alexander@correo.com"
+        },
+        {
+        "name": "Fernando Fruit Shop",
+        "address": "Smith",
+        "phoneNumber": 933104574,
+        "url": "27 June 1844",
+        "image": 14,
+        "membershipLevel":
+            {
+              "member": "1",
+              "silver": "2",
+              "gold": "3"
+            },
+        "email": "alexander@correo.com"
+        },
+        {
+        "name": "Enrique's PC gamers store",
+        "address": "Smith",
+        "phoneNumber": 933104575,
+        "url": "27 June 1844",
+        "image": 14,
+        "membershipLevel": 
+            {
+              "member": "1",
+              "silver": "2",
+              "gold": "3"
+            },
+        "email": "alexander@correo.com"
+        },
+        {
+        "name": "Yamileth Clothing Store",
+        "address": "Smith",
+        "phoneNumber": 933104576,
+        "url": "27 June 1844",
+        "image": 14,
+        "membershiLevel":
+            {
+              "member": "1",
+              "silver": "2",
+              "gold": "3"
+            },
+        "email": "alexander@correo.com"
+        },
+        {
+        "name": "Alexander Innovations",
+        "address": "Smith",
+        "phoneNumber": 933104577,
+        "url": "27 June 1844",
+        "image": 14,
+        "membershipLevel":
+            {
+              "member": "1",
+              "silver": "2",
+              "gold": "3"
+            },
+        "email": "alexander@correo.com"
+        }
+      ]
+}
