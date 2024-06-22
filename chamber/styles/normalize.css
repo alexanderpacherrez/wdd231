@@ -1,0 +1,144 @@
+Html {
+    Line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
+  Body {
+    Margin: 0;
+  }
+ 
+  Main {
+    Display: block;
+  }
+  H1 {
+    Font-size: 2em;
+    Margin: 0.67em 0;
+  }
+  Hr {
+    Box-sizing: content-box; /* 1 */
+    Height: 0; /* 1 */
+    Overflow: visible; /* 2 */
+  }
+  Pre {
+    Font-family: monospace, monospace; /* 1 */
+    Font-size: 1em; /* 2 */
+  }
+  A {
+    Background-color: transparent;
+  }
+  Abbr[title] {
+    Border-bottom: none; /* 1 */
+    Text-decoration: underline; /* 2 */
+    Text-decoration: underline dotted; /* 2 */
+  }
+  B,
+  Strong {
+    Font-weight: bolder;
+  }
+
+  Code,
+  Kbd,
+  Samp {
+    Font-family: monospace, monospace; /* 1 */
+    Font-size: 1em; /* 2 */
+  }
+  Small {
+    Font-size: 80%;
+  }
+Sub,
+  Sup {
+    Font-size: 75%;
+    Line-height: 0;
+    Position: relative;
+    Vertical-align: baseline;
+  }
+  Sub {
+    Bottom: -0.25em;
+  }
+  Sup {
+    Top: -0.5em;
+  }
+  Img {
+    Border-style: none;
+  }
+  Button,
+  Input,
+  Optgroup,
+  Select,
+  Textarea {
+    Font-family: inherit; /* 1 */
+    Font-size: 100%; /* 1 */
+    Line-height: 1.15; /* 1 */
+    Margin: 0; /* 2 */
+  }
+  Button,
+  Input { /* 1 */
+    Overflow: visible;
+  }
+  Button,
+  Select { /* 1 */
+    Text-transform: none;
+  }
+  Button::-moz-focus-inner,
+  [type=”button”]::-moz-focus-inner,
+  [type=”reset”]::-moz-focus-inner,
+  [type=”submit”]::-moz-focus-inner {
+    Border-style: none;
+    Padding: 0;
+  }
+  Button:-moz-focusring,
+  [type=”button”]:-moz-focusring,
+  [type=”reset”]:-moz-focusring,
+  [type=”submit”]:-moz-focusring {
+    Outline: 1px dotted ButtonText;
+  }
+  Fieldset {
+    Padding: 0.35em 0.75em 0.625em;
+  }
+  Legend {
+    Box-sizing: border-box; /* 1 */
+    Color: inherit; /* 2 */
+    Display: table; /* 1 */
+    Max-width: 100%; /* 1 */
+    Padding: 0; /* 3 */
+    White-space: normal; /* 1 */
+  }
+  Progress {
+    Vertical-align: baseline;
+  }
+  Textarea {
+    Overflow: auto;
+  }
+  [type=”checkbox”],
+  [type=”radio”] {
+    Box-sizing: border-box; /* 1 */
+    Padding: 0; /* 2 */
+  }
+  [type=”number”]::-webkit-inner-spin-button,
+  [type=”number”]::-webkit-outer-spin-button {
+    Height: auto;
+  }
+  [type=”search”] {
+    Outline-offset: -2px; /* 2 */
+  }
+  [type=”search”]::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  ::-webkit-file-upload-button {
+    -webkit-appearance: button; /* 1 */
+    Font: inherit; /* 2 */
+  }
+  Details {
+    Display: block;
+  }
+ 
+  Summary {
+    Display: list-item;
+  }
+
+  Template {
+    Display: none;
+  }
+ 
+  [hidden] {
+    Display: none;
+  }

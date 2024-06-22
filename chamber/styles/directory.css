@@ -4,40 +4,49 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(7, 7, 65);
+}
 .logo {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
     flex-wrap: wrap;
 }
 
 .logo img {
-    width: 100px;
-}
-
-.title {
-    display: flex;
-    flex-direction: column;
-    padding-right: -10px;
+    height: 100px;
 }
 
 .title h1 {
-    font-size: 1.9em;
+    font-size: 1.5em;
+    color:white;
 }
 
 .title p {
-    font-size: 0.9em;
+    font-size: 1.3em;
+    color:white;
 }
 
-.barrita {
-    list-style: none;
-}
 
-.barrita a {
-    flex-direction: row;
-    padding: 110px;
+a {
+    padding-right: 100px;
     text-decoration: none;
-    font-size: 1.2em;
-    
+    font-size: 1.5em;
+    color:white;
 }
 
+a:hover {
+    color: yellow;
+}
+
+footer {
+    background-color: rgb(7, 7, 65);
+    color: white;
+}
