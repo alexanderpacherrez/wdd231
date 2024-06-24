@@ -134,6 +134,8 @@ footer p {
 
     header {
         display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
     }
     .barra {
