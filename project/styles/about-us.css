@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-text: #073B4C;
+    --color-titles: #660018;
+    --background: #FFD166;
+    --color-links: #193D10;
+}
+
+/*Header*/
+body {
+    background-color: var(--background);
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    color: var(--color-titles);
+    border-top: 2px solid var(--color-titles);
+    border-bottom: 2px solid var(--color-titles);
+}
+
+.items a {
+    color: var(--color-links);
+    text-decoration: none;
+    font-size: 1.5em;
+    height: 30px;
+    margin: 10px;
+}
+
+h1 {
+    color: var(--color-titles);
+    font-size: 3em;
+    text-align: center;
+    font-family: "Montserrat ExtraBold 800";
+    margin-bottom: 1px;
+}
+
+h2 {
+    color: var(--color-titles);
+    text-align: center;
+    font-family: "Montserrat ExtraBold 800";
+    font-size: 2.3em;
+    padding-top: 15px;
+}
+
+/*Movies*/
+h3 {
+    font-size: 1.8em;
+    color: var(--color-titles);
+    text-align: center;
+    margin-top: 1px;
+    text-wrap: balance;
+}
+
+h4 {
+    font-size: 1.4em;
+    color: var(--color-titles);
+    text-align: center;
+    text-wrap: balance;
+}
+
+p {
+    font-size: 1.3em;
+    color: var(--color-text);
+    text-align: center;
+    margin: 10px;
+    text-wrap: balance;
+}
+
+picture img {
+    width: 80%;
+    height: auto;
+}
+
+.me picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/*Form*/
+.formulario {
+    color: var(--color-text);
+    font-size: 2em;
+    margin: 30px;
+}
+
+legend {
+    margin: 15px;
+}
+
+input[type=text] {width: 90%;
+    height: 40px;
+    margin: 20px;
+}
+
+input[type=radio] {width: auto;
+    margin: 20px;
+    margin-right: 2px;
+    height: 25px;
+    text-wrap: balance;
+
+}
+
+input[type=submit] {width: auto;
+    border: 3px solid var(--color-links);
+    border-radius: 7px;
+    background-color: var(--background);
+    color: var(--color-text);
+    font-size: 0.6em;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+input[type=submit]:hover {
+    color: rgb(238, 13, 13);
+}
+
+.one {
+    margin: 1px;
+}
+
+
+/*Footer*/
+footer {
+    border-top: 2px solid var(--color-titles);
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h5 {
+    font-size: 1.3em;
+    color: var(--color-titles);
+    text-align: center;
+}
+
+.icons img {
+    width: 50px;
+    margin-top: 10px;
+    margin: 10px;
+    
+}
+
+h6 {
+    font-size: 1em;
+    color: var(--color-titles);
+    text-align: center;
+}
+
+
+@media screen and (min-width: 640px) {
+
+    .items {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
