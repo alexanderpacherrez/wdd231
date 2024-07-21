@@ -123,7 +123,7 @@ h6 {
     text-align: center;
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 721px) {
 
     .items {
         display: flex;
