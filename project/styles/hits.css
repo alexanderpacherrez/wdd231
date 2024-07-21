@@ -58,44 +58,24 @@ video {
     padding: 10px 50px;
 }
 
-/*Movies*/
+.videos {
+    text-align: center;
+
+}
+.videos a {
+    color: var(--color-links);
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+
+
 h3 {
     font-size: 1.8em;
     color: var(--color-titles);
     text-align: center;
     margin-top: 1px;
     text-wrap: balance;
-}
-
-h4 {
-    font-size: 1.4em;
-    color: var(--color-titles);
-    text-align: center;
-    text-wrap: balance;
-}
-
-p {
-    font-size: 1.3em;
-    color: var(--color-text);
-    text-align: center;
-    margin: 10px;
-    text-wrap: balance;
-}
-
-picture img {
-    width: 80%;
-    height: auto;
-}
-
-.chainsmokers picture,
-.styles picture,
-.magic picture,
-.maroon picture,
-.mars picture {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
 }
 
 /*Footer*/
