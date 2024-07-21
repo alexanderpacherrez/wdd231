@@ -115,6 +115,14 @@ footer {
     border-top: 2px solid var(--color-titles);
 }
 
+.all {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
 .icons {
     display: flex;
     justify-content: center;
@@ -123,7 +131,7 @@ footer {
 }
 
 h5 {
-    font-size: 2em;
+    font-size: 1.3em;
     color: var(--color-titles);
     text-align: center;
 }
@@ -134,8 +142,26 @@ h5 {
     margin: 10px;
 }
 
+.info {
+    margin-top: 10px;
+}
+
+.info h6 {
+    font-size: 1em;
+    color: var(--color-titles);
+    text-wrap: balance;
+    margin: 10px;
+    text-align: center;
+}
+
+.info img {
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
 h6 {
-    font-size: 1.1em;
+    font-size: 1em;
     color: var(--color-titles);
     text-align: center;
 }
@@ -143,6 +169,13 @@ h6 {
 @media screen and (min-width: 721px) {
 
     .items {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .all {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
