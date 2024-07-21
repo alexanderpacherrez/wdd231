@@ -63,6 +63,12 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #f4c558;
+}
+
+.principal img {
+    width: 100%;
+    padding: 20px 50px;
 }
 
 .principal h2 {
